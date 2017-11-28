@@ -1,0 +1,15 @@
+@font-face {
+     font-family: "Gidole-Regular";
+     src: url("../fonts/GidoleFont/Gidole-Regular.ttf") format("truetype");
+}
+
+.my-cool-style {
+    font-family: "Gidole-Regular", sans-serif;
+    color: red;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(grey));
+    background-image: -webkit-linear-gradient(top, blue, grey);
+    background-image: -moz-linear-gradient(top, blue, grey);
+    background-image: linear-gradient(to bottom, blue, grey);
+    height: 400px;
+    font-size: 50;
+}
